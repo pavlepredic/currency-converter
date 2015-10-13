@@ -12,16 +12,9 @@ $converted = $converter->convert(100, 'USD', 'EUR');
 ```
 
 # Storing exchange rates to DB using Doctrine
-- Create an ORM Entity that implements
-```
-PavlePredic\CurrencyConverter\Entity\ExchangeRateInterface
-```
+- Create an ORM Entity that implements PavlePredic\CurrencyConverter\Entity\ExchangeRateInterface
 
-- Implement 
-```
-PavlePredic\CurrencyConverter\Repository\ExchangeRateRepositoryInterface
-```
-The repository might look something like this:
+- Implement PavlePredic\CurrencyConverter\Repository\ExchangeRateRepositoryInterface. The repository might look something like this:
 ```
 <?php
 namespace AppBundle\Repository;
