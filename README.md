@@ -5,7 +5,7 @@ Tools for performing currency conversion. This library might be used with Symfon
 ```
 use PavlePredic\CurrencyConverter\Service\CurrencyConverter;
 
-$converter = new CurrencyConverter($provider);
+$converter = new CurrencyConverter();
 $converted = $converter->convert(100, 'USD', 'EUR');
 ```
 
