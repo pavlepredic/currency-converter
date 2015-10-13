@@ -1,7 +1,7 @@
 # Currency converter
 Tools for performing currency conversion. This library might be used with Symfony2 framework, but this is not a requirement. You can use the basic exchange rate conversion utility with vanilla PHP. In order to use the storage layer, you will need Doctrine. This library is a work in progress. 
 
-# Baisc usage example
+# Basic usage example
 ```
 use PavlePredic\CurrencyConverter\Service\CurrencyConverter;
 
